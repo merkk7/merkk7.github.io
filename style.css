@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul, li {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    width: 100%;
+    height: 70px;
+}
+.navbar_list{
+    z-index: 1;
+}
+.navbar_info{
+    background-color:#000;
+    color: azure;
+    height: 60px;
+}
+.navbar_info_text{
+    font-size: 17px;
+}
+.navbar_header{
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+/* 2 верхних навбара*/
+
+.welcome h2, h4{
+    color: #fff;
+}
+.welcome h2{
+    padding-top: 180px;
+}
+.img_service{
+    background-image: url(img/banner-vehicle5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+/* Интро */
+
+.benefits_img{
+    width: 80px;
+    height: 80px;
+}
+
+/*преимущества */
+
+/* услуги-картинки */
+
+.services_parent{
+    position: relative;
+    width: 20%;
+    min-width: 350px;
+    display: inline-block;
+    vertical-align: right;
+}
+.services_parent img{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.services_parent div{
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    height:120px;
+    margin-top:-120px;
+    line-height:-30px;
+}
+.services_text{
+    font-size: 23px;
+}
+.services_btn{
+    display: block;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 8px 30px;
+    background-color: rgb(44, 40, 40);
+    color: #fff;
+}
+.services_btn:hover{
+    color: red;
+}
+/* услуги */
+
+.slider_card img {
+    width: 150px;
+    height: 200px;
+}
+/*заявка */
+.call_text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.footer p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* страница "услуги и сервис"*/
+.tools_img{
+    display: block;
+    width: 320px;
+    height: 200px;
+}
+.tools_parent{
+    position: relative;
+    width: 20%;
+    min-width: 320px;
+    display: inline-block;
+    vertical-align: right;
+}
+.tools_parent div{
+    position: absolute;
+    width: 296px;
+    left: -10;
+    bottom: 0;
+    height:35px;
+    margin-top:-40px;
+    line-height:-20px;
+    font-size: 20px;
+    background: #000;
+}
+.feedback_img{
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+/* список li */
+.list_li{
+    margin: 10px 0 10px 0;
+}
+.footer_shinomontaj{
+    margin-top: 80px;
+}
